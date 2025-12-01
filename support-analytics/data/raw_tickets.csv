@@ -1,0 +1,13 @@
+ticket_id,customer_id,product,issue_description,severity,status,created_at,resolved_at
+TKT-12000,CUST-231,Cohesity DataProtect,Backup job failure due to snapshot metadata corruption,Critical,Escalated,2024-07-01 08:42:00,2024-07-02 03:13:00
+TKT-12001,CUST-554,Cohesity SmartFiles,Deduplication ratio drop impacting cluster capacity,High,In Progress,2024-07-03 11:25:00,2024-07-04 16:05:00
+TKT-12002,CUST-772,Cohesity FortKnox,Ransomware anomaly detected via ML sensor,Critical,Open,2024-07-04 02:57:00,
+TKT-12003,CUST-109,Cohesity SiteContinuity,Node offline after firmware upgrade,High,Resolved,2024-07-05 21:11:00,2024-07-06 14:00:00
+TKT-12004,CUST-388,Cohesity DataProtect,Restore throughput throttled below SLA,Medium,Resolved,2024-07-07 05:51:00,2024-07-08 06:54:00
+TKT-12005,CUST-912,Cohesity DataProtect,API token invalidation impacting automation,Medium,In Progress,2024-07-09 13:14:00,
+TKT-12006,CUST-441,Cohesity SmartFiles,Storage domain marked read-only,High,Escalated,2024-07-11 08:05:00,2024-07-13 10:44:00
+TKT-12007,CUST-663,Cohesity SiteContinuity,Replication lag between data centers,Medium,Open,2024-07-12 17:42:00,
+TKT-12008,CUST-355,Cohesity FortKnox,Audit log ingestion halted,Low,Resolved,2024-07-13 03:16:00,2024-07-13 07:48:00
+TKT-12009,CUST-247,Cohesity DataProtect,S3 compatible endpoint intermittent,Low,Open,2024-07-14 19:32:00,
+
+

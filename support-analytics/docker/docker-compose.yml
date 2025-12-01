@@ -1,0 +1,23 @@
+version: "3.9"
+
+services:
+  api:
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile
+    container_name: support-analytics-api
+    environment:
+      - DATABASE_URL=sqlite:////app/data/support_analytics.db
+      - TICKET_RAW_PATH=/app/data/raw_tickets.csv
+      - TELEMETRY_RAW_PATH=/app/data/raw_telemetry.csv
+      - PROCESSED_DIR=/app/data/processed
+    volumes:
+      - ../data:/app/data
+    ports:
+      - "8000:8000"
+    command: >
+      sh -c "python etl/ticket_etl.py &&
+             python etl/telemetry_etl.py &&
+             python database/init_db.py &&
+             uvicorn api.main:app --host 0.0.0.0 --port 8000"
+

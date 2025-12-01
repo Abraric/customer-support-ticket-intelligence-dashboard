@@ -1,0 +1,10 @@
+event_id,node_id,event_type,response_time_ms,cpu_usage,storage_utilization,created_at
+0c5f58cf-2a43-4ba5-a9f1-a511e3b7b100,NODE-14,IOPS Spike,78,82.1,71.4,2024-07-01 08:40:00
+4d81d1a9-8e1f-4700-9a0d-91a8af1eab77,NODE-61,CPU Spike,66,91.8,68.9,2024-07-01 09:12:00
+64bb6725-98ca-4fa5-9d53-50652f17964a,NODE-22,Node Offline,120,35.4,65.1,2024-07-01 10:04:00
+5d6a02cf-0925-4f1b-b1b9-b89ecf47be2a,NODE-199,Security Alert,44,55.3,72.8,2024-07-01 11:45:00
+2842e43e-7be0-4e2d-83af-4d1de09c0656,NODE-88,Throughput Drop,59,63.5,81.6,2024-07-01 12:11:00
+7a0e86a2-58ea-45ee-b8c8-bc0d7238325f,NODE-145,Disk Rebuild,33,41.2,83.0,2024-07-02 02:31:00
+8514cdcf-0a02-4aea-af2f-699f26417612,NODE-33,Snapshot Failure,91,71.0,77.5,2024-07-02 03:18:00
+57f10a06-2fce-41c2-aee9-49816a26c1e3,NODE-17,CPU Spike,40,88.3,62.7,2024-07-02 05:14:00
+
