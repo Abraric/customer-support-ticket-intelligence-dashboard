@@ -1,6 +1,6 @@
 # Customer Support Ticket Intelligence & Product Telemetry Dashboard — Output Walkthrough
 
-This guide explains how data flows through the system, what artifacts get produced, and how to validate the results end-to-end.
+This guide (me ;)) explains how data flows through the system, what artifacts get produced, and how to validate the results end-to-end.
 
 ---
 
@@ -125,12 +125,10 @@ The included tests cover synthetic-data generation and text sanitization. Extend
 
 ---
 
-## 8. What to Present as “Output”
+## 8.“Output”
 
 - **Data artifacts:** `data/raw_*.csv`, `data/processed/*.csv`, `data/support_analytics.db`.
 - **API responses:** JSON payloads from `/api/tickets/*` and `/api/telemetry/events`.
 - **Dashboards:** Power BI visuals saved as PNGs/GIFs for recruiters.
 - **Logs:** ETL + API logs (via `loguru`) for observability stories.
-
-Use this README alongside the main project documentation when presenting the project in your portfolio or during technical interviews.
 
