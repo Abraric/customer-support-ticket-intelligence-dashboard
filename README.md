@@ -91,7 +91,7 @@ The container runs ETL, populates the DB, and starts FastAPI on `localhost:8000`
 pytest
 ```
 
-## Recruiter-Friendly Highlights
+## Highlights of the work:
 - Demonstrates **end-to-end ownership**: data generation → NLP → warehousing → API → BI.
 - Uses **production-grade patterns**: SQLAlchemy models, dependency-injected FastAPI, logging, env-based configs.
 - Ready for demos: Power BI instructions, Docker packaging, and storytelling README.
